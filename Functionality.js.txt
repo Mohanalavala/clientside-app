@@ -1,0 +1,36 @@
+function calcCurrency() {
+    var type1 = document.getElementById("src").value;
+    var input = document.getElementById("cur_data").value;
+    var type2 = document.getElementById("dest").value;
+    var output=0;
+    switch (type1) {
+        case "dollar":
+            switch (type2) {
+                case "dollar":
+                    output=input;break;
+                case "rupee":
+                    output=input*71.52;break;
+                default:
+                    output=123;
+
+            }
+        case "rupee":
+            switch (type2) {
+                case "rupee":
+                    output=input;
+                output=123;
+            }
+        case "yen":
+            switch (type2) {
+                case "yen":
+                    output=input;
+                default:
+                    output=123;
+            }
+        default:
+            output=123;
+
+    }
+window.alert("The converted currency value is:",output);
+
+}

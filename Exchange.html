@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title class="title">Currency Convertor and Interest Calculator</title>
+    <h1 text-align:center >Currency exchange</h1>
+    <script type="text/javascript" src="Functionality.js"></script>
+    <style>
+        body {
+            background-color: #fafafa;
+            
+        }
+
+        body {
+            color: #2f4f4f;
+        }
+
+        p {
+            overflow-x: -webkit-marquee;
+            -webkit-marquee-style: alternate;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
+	
+      .site-footer {
+        background-color: black#111;
+        display: block;
+      }    
+      circular--square {
+    border-radius: 50%;
+    align-items: center;      
+  }
+    </style>
+    <!--<img src="money-exchange-e1542654007468.jpg" height="400px" ; width="100%"> -->
+    <br>
+    <nav>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="Exchange.html">Exchange</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+</nav>
+    <style> 
+      circular--square {
+        border-radius: 50%;
+        align-items: center;      
+      }
+    </style>
+    
+    <img src="IMG-0211.jpg" class="circular--square" alt="mohan"  style="width:200px" >
+
+    <h1> Module 1: Currency Convertor </h1>
+    <br>
+    <form id="form1" onsubmit="CalcCurrency()">
+
+        Please pick your currency and enter the value, to get converted:
+        <select name="SrcCurrencies" id="src">
+            <name>Currency</name>
+            <option value="rupee">INR</option>
+            <option value="yen">Yen</option>
+            <option value="dollar">Dollar</option>
+            <option value="pound">Pound</option>
+        </select>
+        <input type="number" id="cur_data">
+        <br>
+        Please pick your desired currency:
+        <select name="DestCurrencies" id="dest">
+            <name>Currency</name>
+            <label>Currency</label>
+            <option value="rupee">INR</option>
+            <option value="yen">Yen</option>
+            <option value="dollar">Dollar</option>
+            <option value="pound">Pound</option>
+        </select>
+    </form><br>
+    <input type="submit" about="Convert" aria-valuetext="Convert" name="Convert">
+    <script type="text/javascript" src="Functionality.js"></script>
+    <!-- script work goes here-->
+    <br><br><br>
+    <h1> Module 2: Interest Calculator </h1>
+    <form id=form2" onsubmit="CalcInterest()">
+        &nbsp Please enter your Principal Amount($) lended: <input type=number id="pr"><br>
+        &nbsp Enter the interest: <input type=number id="in"><br>
+        &nbsp Pick the tenure: <select name="rate" id="rate">
+            <option value="i4">Quarter-Yearly</option>
+            <option value="i2">Half-Yearly</option>
+            <option value="i1">Yearly</option>
+        </select><br>
+        &nbsp Pick the Type of interest: <select name="iType" id="iType">
+            <option value="Simple">Simple</option>
+            <option value="Compound">Compound</option>
+        </select> <br><br>
+        <input type="submit" name="Calculate" aria-label="Convert">
+        <!-- PTR/100-->
+    </form>
+    <br><br><br><br>
+    <p>Thanks for Visiting, See you again!</p>
+</body>
+<footer class="site-footer">
+
+    <div id="footer1">
+      <p>&#169; Mohan Krishna Alavala </p>
+    </div>
+    <div id="footer2">
+      <p>Contact information: <a href="mailto:alavalamohan@gmail.com"> Gmail</a>.</p>
+    </div>
+  
+  </footer>
+
+</html>

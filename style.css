@@ -1,0 +1,37 @@
+head {
+background-color: #fafafa;
+}
+
+.title{
+  text-align: center;
+  color: red;
+}
+
+h1 {
+   text-align: center;
+   color:red
+}
+
+.circular--square {
+  border-radius: 50%;
+  align-items: center;  
+  
+}
+input[type=text]{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color:#000080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.container {
+  padding: 20px; 
+}
